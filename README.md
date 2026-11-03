@@ -1,2 +1,2 @@
 # my-resume
-## live-url : https://mgkh286.github.io/my-resume/
+## live-url : https://mohamedkhalifa.netlify.app/
