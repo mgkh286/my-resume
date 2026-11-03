@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- favicon  -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://www.htmlgoodies.com/wp-content/uploads/2021/03/HTMLg_weblogo_Favicon.png"
+    <meta
+      name="description"
+      content="The resume of Mohamed Khalifa, a front-end developer and GIS specialist."
     />
-    <!-- font awesome icons  -->
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -17,260 +15,253 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Mohamed Khalifa</title>
+    <title>Mohamed Khalifa | Resume</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="left-side">
+    <button class="language-toggle" type="button" aria-label="Switch to Arabic">
+      العربية
+    </button>
+    <main class="container">
+      <aside class="left-side">
         <div class="profile-text">
           <div class="img-box">
-            <img src="./img/profile-img.png" alt="" />
+            <img src="./img/profile-img.png" alt="Mohamed Khalifa's profile photo" data-i18n-alt="profilePhoto" />
           </div>
-          <h2>
-            Mohamed Khalifa <br />
-            <span>Web Developer</span>
-          </h2>
-        </div>
-        <!-- Contact Info  -->
-        <div class="contact-info">
-          <h3 class="title">Contact Info</h3>
-          <ul>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-whatsapp" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="https://wa.me/+966532719336">
-                  +966 532 719 336
-                </a></span
-              >
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-phone" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="tel:+966532719336"> +966 532 719 336 </a></span
-              >
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-envelope-o" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="mailto:mmd1790@g~mail.com">mmd1790@gmail.com</a>
-              </span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-globe" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="https://rb.gy/4dvnl">https://rb.gy/4dvnl</a></span
-              >
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-github" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="https://github.com/mgkh286">Github</a></span
-              >
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-linkedin" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="https://rb.gy/qvack">https://rb.gy/qvack</a></span
-              >
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-map-marker" aria-hidden="true"></i
-              ></span>
-              <span class="text">Cairo, Egypt</span>
-            </li>
-          </ul>
+          <h1>
+            <span data-i18n="name">Mohamed Khalifa</span>
+            <span data-i18n="role">Front-End Developer</span>
+          </h1>
         </div>
 
-        <!-- Education  -->
-        <div class="contact-info education">
-          <h3 class="title">Education</h3>
+        <section class="contact-info">
+          <h2 class="title" data-i18n="contact">Contact Information</h2>
           <ul>
             <li>
-              <h5>2011 - 2014</h5>
-              <h4>bachelor degree in Geographic Information Systems</h4>
-              <h4>Assiut University</h4>
+              <span class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
+              <span class="text"><a href="https://wa.me/966532719336" dir="ltr">+966 532 719 336</a></span>
             </li>
             <li>
-              <h5>2017 - 2018</h5>
-              <h4>Egfwd Web Development learning scholarship</h4>
-              <h4>Udacity platform</h4>
+              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="text"><a href="tel:+966532719336" dir="ltr">+966 532 719 336</a></span>
             </li>
             <li>
-              <h5>2020 - 2021</h5>
-              <h4>Advanced Web Development learning path</h4>
-              <h4>Lynda platform</h4>
+              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+              <span class="text"><a href="mailto:mmd1790@gmail.com" dir="ltr">mmd1790@gmail.com</a></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+              <span class="text"><a href="https://rb.gy/4dvnl" dir="ltr" data-i18n="website">Personal Website</a></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+              <span class="text"><a href="https://github.com/mgkh286" dir="ltr">GitHub</a></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+              <span class="text"><a href="https://rb.gy/qvack" dir="ltr">LinkedIn</a></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span class="text" data-i18n="location">Cairo, Egypt</span>
             </li>
           </ul>
-        </div>
+        </section>
 
-        <!-- fffff  -->
-        <div class="contact-info language">
-          <h3 class="title">Languages</h3>
+        <section class="contact-info education">
+          <h2 class="title" data-i18n="education">Education</h2>
           <ul>
             <li>
-              <span class="text">Arabic</span>
-              <span class="percent">
-                <div style="width: 90%"></div>
+              <h3>٢٠١١ – ٢٠١٤</h3>
+              <h4 data-i18n="degree">Bachelor's Degree in Geographic Information Systems</h4>
+              <h4 data-i18n="university">Assiut University</h4>
+            </li>
+            <li>
+              <h3>٢٠١٧ – ٢٠١٨</h3>
+              <h4 data-i18n="scholarship">EG-FWD Web Development Scholarship</h4>
+              <h4 data-i18n="udacity">Udacity Platform</h4>
+            </li>
+            <li>
+              <h3>٢٠٢٠ – ٢٠٢١</h3>
+              <h4 data-i18n="advancedWeb">Advanced Web Development Learning Path</h4>
+              <h4 data-i18n="linkedinLearning">LinkedIn Learning (Lynda)</h4>
+            </li>
+          </ul>
+        </section>
+
+        <section class="contact-info language">
+          <h2 class="title" data-i18n="languages">Languages</h2>
+          <ul>
+            <li>
+              <span class="text" data-i18n="arabic">Arabic</span>
+              <span class="percent" role="img" aria-label="Arabic language level: 90%" data-i18n-aria="arabicLevel">
+                <span style="width: 90%"></span>
               </span>
             </li>
             <li>
-              <span class="text">English</span>
-              <span class="percent">
-                <div style="width: 75%"></div>
+              <span class="text" data-i18n="english">English</span>
+              <span class="percent" role="img" aria-label="English language level: 75%" data-i18n-aria="englishLevel">
+                <span style="width: 75%"></span>
               </span>
             </li>
             <li>
-              <span class="text">French</span>
-              <span class="percent">
-                <div style="width: 30%"></div>
+              <span class="text" data-i18n="french">French</span>
+              <span class="percent" role="img" aria-label="French language level: 30%" data-i18n-aria="frenchLevel">
+                <span style="width: 30%"></span>
               </span>
             </li>
           </ul>
-        </div>
-        <!-- end div -->
-      </div>
-      <!-- Right Side  -->
+        </section>
+      </aside>
+
       <div class="right-side">
-        <div class="about">
-          <h2 class="title2">Profile</h2>
-          <p>
-            I am a Front End developer with industry experience building
-            websites and web applications.
-            <br />
-            My role is to write and style the front-end components that meet the
-            requirements of our mocks and fulfill our user stories. I also
-            monitor and process pull requests for production deployments.
+        <section class="about">
+          <h2 class="title2" data-i18n="profile">Profile</h2>
+          <p data-i18n="profileText">
+            Front-end developer with professional experience building websites
+            and web applications. I develop and style interface components to
+            meet design and user-story requirements, and review pull requests
+            ahead of production deployments.
           </p>
-        </div>
-        <div class="about">
-          <h2 class="title2">Experience</h2>
-          <div class="box">
-            <div class="year-company">
-              <h5>2021 - present</h5>
-              <h5>Manarat Co</h5>
-            </div>
-            <div class="text">
-              <h4>Web Developer</h4>
-              <p>
-                I contributed to the company's digital presence by designing,
-                developing, and maintaining responsive and user-friendly
-                websites. I collaborated closely with the design and content
-                teams .
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="year-company">
-              <h5>2018 - 2021</h5>
-              <h5>Hsoub</h5>
-            </div>
-            <div class="text">
-              <h4>Freelancer Web Developer</h4>
-              <p>
-                I've designed and developed tailored websites that align with
-                clients' visions and business objectives. I've effectively
-                managed client relationships, gathered requirements, and
-                delivered solutions within agreed-upon timelines.
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="year-company">
-              <h5>2016 - 2018</h5>
-              <h5>Orascom Construction Co</h5>
-            </div>
-            <div class="text">
-              <h4>GIS Specialist</h4>
-              <p>
-                I was responsible for collecting, analyzing, and visualizing
-                spatial data to provide valuable insights and solutions. I
-                collaborated closely with cross-functional teams to create maps,
-                conduct geospatial analysis, and develop interactive tools,
-                contributing directly to project success.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- end div  -->
+        </section>
 
-        <!-- skills  -->
-        <div class="about skills">
-          <h2 class="title2">Professional Skills</h2>
-          <div class="box">
-            <h4>Wordpress</h4>
-            <div class="percent">
-              <div style="width: 95%"></div>
+        <section class="about">
+          <h2 class="title2" data-i18n="experience">Professional Experience</h2>
+          <article class="box">
+            <div class="year-company">
+              <h3>2021 – Present</h3>
+              <h3 data-i18n="manarat">Manarat Co.</h3>
             </div>
-          </div>
-          <div class="box">
-            <h4>Html</h4>
-            <div class="percent">
-              <div style="width: 95%"></div>
+            <div class="text">
+              <h3 data-i18n="webDeveloper">Web Developer</h3>
+              <p data-i18n="manaratText">
+                Contributed to the company's digital presence by designing,
+                developing, and maintaining responsive, user-friendly websites
+                in collaboration with the design and content teams.
+              </p>
             </div>
-          </div>
-          <div class="box">
-            <h4>CSS</h4>
-            <div class="percent">
-              <div style="width: 90%"></div>
+          </article>
+          <article class="box">
+            <div class="year-company">
+              <h3>2018 – 2021</h3>
+              <h3 data-i18n="hsoub">Hsoub (Freelance)</h3>
             </div>
-          </div>
-          <div class="box">
-            <h4>Javascript</h4>
-            <div class="percent">
-              <div style="width: 80%"></div>
+            <div class="text">
+              <h3 data-i18n="freelanceDeveloper">Freelance Web Developer</h3>
+              <p data-i18n="freelanceText">
+                Designed and developed websites aligned with clients' visions
+                and business goals; managed client communication, gathered
+                requirements, and delivered solutions on schedule.
+              </p>
             </div>
-          </div>
-          <div class="box">
-            <h4>Tailwind Css</h4>
-            <div class="percent">
-              <div style="width: 90%"></div>
+          </article>
+          <article class="box">
+            <div class="year-company">
+              <h3>2016 – 2018</h3>
+              <h3 data-i18n="orascom">Orascom Construction</h3>
             </div>
-          </div>
-          <div class="box">
-            <h4>React Js</h4>
-            <div class="percent">
-              <div style="width: 75%"></div>
+            <div class="text">
+              <h3 data-i18n="gisSpecialist">GIS Specialist</h3>
+              <p data-i18n="gisText">
+                Collected, analyzed, and visualized spatial data to provide
+                useful insights and solutions. Collaborated with cross-functional
+                teams to create maps, perform geospatial analysis, and develop
+                interactive tools.
+              </p>
             </div>
-          </div>
-          <div class="box">
-            <h4>Python</h4>
-            <div class="percent">
-              <div style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>Figma</h4>
-            <div class="percent">
-              <div style="width: 98%"></div>
-            </div>
-          </div>
-        </div>
+          </article>
+        </section>
 
-        <!-- intrests -->
-        <div class="about intrests">
-          <h2 class="title2">Intrests</h2>
+        <section class="about skills">
+          <h2 class="title2" data-i18n="skills">Professional Skills</h2>
+          <div class="box">
+            <h3>WordPress</h3>
+            <div class="percent"><span style="width: 95%"></span></div>
+          </div>
+          <div class="box">
+            <h3>HTML</h3>
+            <div class="percent"><span style="width: 95%"></span></div>
+          </div>
+          <div class="box">
+            <h3>CSS</h3>
+            <div class="percent"><span style="width: 90%"></span></div>
+          </div>
+          <div class="box">
+            <h3>JavaScript</h3>
+            <div class="percent"><span style="width: 80%"></span></div>
+          </div>
+          <div class="box">
+            <h3>Tailwind CSS</h3>
+            <div class="percent"><span style="width: 90%"></span></div>
+          </div>
+          <div class="box">
+            <h3>React</h3>
+            <div class="percent"><span style="width: 75%"></span></div>
+          </div>
+          <div class="box">
+            <h3>Python</h3>
+            <div class="percent"><span style="width: 85%"></span></div>
+          </div>
+          <div class="box">
+            <h3>Figma</h3>
+            <div class="percent"><span style="width: 98%"></span></div>
+          </div>
+        </section>
+
+        <section class="about technology">
+          <h2 class="title2" data-i18n="technologies">Additional Technologies: Web, Data &amp; AI</h2>
+          <p class="technology-note" data-i18n="technologyNote">
+            General technology list with no proficiency levels; please tailor it
+            to accurately reflect hands-on experience.
+          </p>
+          <div class="technology-group">
+            <h3 data-i18n="programmingLanguages">Programming &amp; Query Languages</h3>
+            <ul>
+              <li>TypeScript</li>
+              <li>PHP</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="technology-group">
+            <h3 data-i18n="webTools">Web Frameworks &amp; Tools</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+              <li data-i18n="gitGithub">Git &amp; GitHub</li>
+              <li data-i18n="restApi">REST APIs</li>
+            </ul>
+          </div>
+          <div class="technology-group">
+            <h3 data-i18n="databases">Databases</h3>
+            <ul>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>SQLite</li>
+            </ul>
+          </div>
+          <div class="technology-group">
+            <h3 data-i18n="artificialIntelligence">Artificial Intelligence</h3>
+            <ul>
+              <li data-i18n="generativeAi">Generative AI</li>
+              <li data-i18n="promptEngineering">Prompt engineering for language models</li>
+              <li data-i18n="llmApis">Integrating language model APIs</li>
+              <li data-i18n="aiAutomation">AI-assisted task automation</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="about interests">
+          <h2 class="title2" data-i18n="interests">Interests</h2>
           <ul>
-            <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
-            <li><i class="fa fa-bandcamp" aria-hidden="true"></i> Camping</li>
-            <li><i class="fa fa-book" aria-hidden="true"></i> Reading</li>
-            <li><i class="fa fa-support" aria-hidden="true"></i> swimming</li>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i> <span data-i18n="gaming">Gaming</span></li>
+            <li><i class="fa fa-bandcamp" aria-hidden="true"></i> <span data-i18n="camping">Camping</span></li>
+            <li><i class="fa fa-book" aria-hidden="true"></i> <span data-i18n="reading">Reading</span></li>
+            <li><i class="fa fa-support" aria-hidden="true"></i> <span data-i18n="swimming">Swimming</span></li>
           </ul>
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
