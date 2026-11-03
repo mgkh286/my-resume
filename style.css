@@ -32,6 +32,28 @@ body {
   background: #2a7da2;
 }
 
+.whatsapp-float {
+  position: fixed;
+  z-index: 2;
+  right: 24px;
+  bottom: 24px;
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  font-size: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  background: #1da851;
+  color: #fff;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -327,6 +349,10 @@ p {
   }
 
   .language-toggle {
+    display: none;
+  }
+
+  .whatsapp-float {
     display: none;
   }
 

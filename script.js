@@ -1,5 +1,11 @@
 const translations = {
   en: {
+    educationDates1: "2011 – 2014",
+    educationDates2: "2017 – 2018",
+    educationDates3: "2020 – 2021",
+    experienceDates1: "2021 – Present",
+    experienceDates2: "2018 – 2021",
+    experienceDates3: "2016 – 2018",
     profilePhoto: "Mohamed Khalifa's profile photo",
     name: "Mohamed Khalifa",
     role: "Front-End Developer",
@@ -55,8 +61,15 @@ const translations = {
     camping: "Camping",
     reading: "Reading",
     swimming: "Swimming",
+    whatsappLabel: "Contact me on WhatsApp",
   },
   ar: {
+    educationDates1: "٢٠١١ – ٢٠١٤",
+    educationDates2: "٢٠١٧ – ٢٠١٨",
+    educationDates3: "٢٠٢٠ – ٢٠٢١",
+    experienceDates1: "٢٠٢١ – حتى الآن",
+    experienceDates2: "٢٠١٨ – ٢٠٢١",
+    experienceDates3: "٢٠١٦ – ٢٠١٨",
     profilePhoto: "الصورة الشخصية لمحمد خليفة",
     name: "محمد خليفة",
     role: "مطور واجهات أمامية",
@@ -112,6 +125,7 @@ const translations = {
     camping: "التخييم",
     reading: "القراءة",
     swimming: "السباحة",
+    whatsappLabel: "تواصل معي عبر واتساب",
   },
 };
 
