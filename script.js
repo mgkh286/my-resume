@@ -44,8 +44,6 @@ const translations = {
       "Collected, analyzed, and visualized spatial data to provide useful insights and solutions. Collaborated with cross-functional teams to create maps, perform geospatial analysis, and develop interactive tools.",
     skills: "Professional Skills",
     technologies: "Additional Technologies: Web, Data & AI",
-    technologyNote:
-      "General technology list with no proficiency levels; please tailor it to accurately reflect hands-on experience.",
     programmingLanguages: "Programming & Query Languages",
     webTools: "Web Frameworks & Tools",
     gitGithub: "Git & GitHub",
@@ -108,8 +106,6 @@ const translations = {
       "جمع البيانات المكانية وتحليلها وعرضها بصريًا لتقديم رؤى وحلول مفيدة، والتعاون مع الفرق المختلفة لإعداد الخرائط وإجراء التحليلات الجغرافية المكانية وتطوير أدوات تفاعلية.",
     skills: "المهارات المهنية",
     technologies: "تقنيات إضافية: الويب والبيانات والذكاء الاصطناعي",
-    technologyNote:
-      "قائمة تقنيات عامة، من دون تحديد مستوى إتقان؛ يُرجى تعديلها بما يعكس الخبرة العملية بدقة.",
     programmingLanguages: "لغات البرمجة والاستعلام",
     webTools: "أطر العمل وأدوات الويب",
     gitGithub: "Git وGitHub",
